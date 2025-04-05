@@ -34,8 +34,12 @@ from telegram.ext import (
 print("Бот працює...")
 
 # Токен бота и ID чата администратора
-TOKEN = "7747992449:AAEqWIUYRlhbdiwUnXqCYV3ODpNX9VUsed8"
-CHAT_ID = "2045410830"  # ID администратора
+#TOKEN = "7747992449:AAEqWIUYRlhbdiwUnXqCYV3ODpNX9VUsed8"
+#CHAT_ID = "2045410830"  # ID администратора
+
+
+TOKEN = "7526376768:AAEX-zUQxObbLD5osWAF2Q0ieWP9yvoKBu4"
+CHAT_ID = "5920866016"  # ID администратора
 
 # Функция для генерации глобального номера заказа
 def get_next_order_number(user_id):
