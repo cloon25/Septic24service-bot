@@ -38,8 +38,9 @@ print("Бот працює...")
 #CHAT_ID = "2045410830"  # ID администратора
 
 
-TOKEN = "7526376768:AAEX-zUQxObbLD5osWAF2Q0ieWP9yvoKBu4"
+# TOKEN = "7526376768:AAEX-zUQxObbLD5osWAF2Q0ieWP9yvoKBu4"
 # CHAT_ID = "5920866016"  # ID администратора
+TOKEN = "5260617811:AAFMZpfjWlTBXu0tSlvmXRantlWryHn944Y"
 CHAT_ID = "1002028553575"  # ID администратора
 
 # Функция для генерации глобального номера заказа
