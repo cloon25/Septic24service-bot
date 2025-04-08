@@ -39,7 +39,8 @@ print("Бот працює...")
 
 
 TOKEN = "7526376768:AAEX-zUQxObbLD5osWAF2Q0ieWP9yvoKBu4"
-CHAT_ID = "5920866016"  # ID администратора
+# CHAT_ID = "5920866016"  # ID администратора
+CHAT_ID = "1002028553575"  # ID администратора
 
 # Функция для генерации глобального номера заказа
 def get_next_order_number(user_id):
