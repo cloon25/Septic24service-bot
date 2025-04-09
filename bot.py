@@ -199,6 +199,7 @@ async def webapp_data_handler(update: Update, context: ContextTypes.DEFAULT_TYPE
 
 def main() -> None:
     application = ApplicationBuilder().token(TOKEN).build()
+    application.deleteWebhook() # TRY REMOVE HOOCK
     application.add_handler(CommandHandler("start", start))
     application.add_handler(CommandHandler("orders", orders_history))
     application.add_handler(CommandHandler("users", users_list))
