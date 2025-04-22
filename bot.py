@@ -67,7 +67,8 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     )
     
     # URL веб‑приложения на GitHub Pages, с передачей user_id
-    web_app_url = "https://cloon25.github.io/Septic24service/?user_id=" + str(user.id)
+    #web_app_url = "https://cloon25.github.io/Septic24service/?user_id=" + str(user.id)
+    web_app_url = "https://septic24.com.ua/Septic24serviceTest/?user_id=" + str(user.id)
     keyboard = [[InlineKeyboardButton("Замовити послугу♻️", web_app=WebAppInfo(url=web_app_url))]]
     reply_markup = InlineKeyboardMarkup(keyboard)
     
