@@ -68,7 +68,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     
     # URL веб‑приложения на GitHub Pages, с передачей user_id
     #web_app_url = "https://cloon25.github.io/Septic24service/?user_id=" + str(user.id)
-    web_app_url = "https://septic24.com.ua/Septic24serviceTest/?user_id=" + str(user.id)
+    web_app_url = "https://bot.septic24.com.ua/?user_id=" + str(user.id)
     keyboard = [[InlineKeyboardButton("Замовити послугу♻️", web_app=WebAppInfo(url=web_app_url))]]
     reply_markup = InlineKeyboardMarkup(keyboard)
     
@@ -203,7 +203,7 @@ def main() -> None:
     application.add_handler(CommandHandler("start", start))
     application.add_handler(CommandHandler("orders", orders_history))
     application.add_handler(CommandHandler("users", users_list))
-    application.add_handler(MessageHandler(filters.StatusUpdate.WEB_APP_DATA, webapp_data_handler))
+    #application.add_handler(MessageHandler(filters.StatusUpdate.WEB_APP_DATA, webapp_data_handler))
     application.run_polling()
 
 if __name__ == "__main__":
